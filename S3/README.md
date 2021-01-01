@@ -1,4 +1,4 @@
-# AWS SDK for Python Sample Project
+# AWS SDK for Python S3 SAmple
 
 A simple Python application illustrating usage of the AWS SDK for Python (also
 referred to as `boto3`).
