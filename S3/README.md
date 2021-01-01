@@ -30,7 +30,7 @@ This sample application connects to Amazon's [Simple Storage Service (S3)](http:
 creates a bucket, and uploads a file to that bucket. The script will generate a
 bucket name and file for you. All you need to do is run the code:
 
-    python s3_sample.py
+    python S3_Python_SDK.py
 
 You need to make sure the credentials you're using have the correct permissions to access the Amazon S3 
 service. If you run into 'Access Denied' errors while running this sample, please follow the steps below.
@@ -43,8 +43,4 @@ service. If you run into 'Access Denied' errors while running this sample, pleas
 
 The sample creates randomly generated bucket names for you, but please be aware of the [restrictions for bucket names](http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html) when you start creating your own buckets.
 
-## License
-
-This sample application is distributed under the
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
